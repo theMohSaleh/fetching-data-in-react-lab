@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchDefaultStarship = async () => {
-      const data = await starshipService.show('Death')
+      const data = await starshipService.show('star')
       setStarships(data)      
     }
     fetchDefaultStarship();
